@@ -35,4 +35,3 @@ This script:
 - **YOLOv8**: for license plate detection
 - **EasyOCR**: for optical character recognition (OCR)
 - **OpenCV**: for image processing
-
