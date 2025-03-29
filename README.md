@@ -29,7 +29,7 @@ This script:
 
 ---
 
-## 🧠 Model & Tools
+## 🔧 Model & Tools
 
 - **Python**
 - **YOLOv8**: for license plate detection
