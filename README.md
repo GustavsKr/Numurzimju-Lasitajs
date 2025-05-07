@@ -1,37 +1,37 @@
-# 🚘 Latvian License Plate Detection & OCR
+# 🚘 Latvijas Automašīnu Numurzīmju Atpazīšana un OCR
 
-Detect and read Latvian license plates from images using **YOLOv8** for object detection and **EasyOCR** for text recognition — all in Python.
-
----
-
-![Original Car Image](car.jpg)  
-*Original car image (example)*
-
-![Cropped Plate Image](cropped_plate.jpg)  
-*Cropped and processed license plate*
+Atpazīst un nolas Latvijas automašīnu numurzīmes no attēliem, izmantojot **YOLOv8** objektu detekcijai un **EasyOCR** teksta atpazīšanai — viss Python vidē.
 
 ---
 
-✅ **Final detected plate:** `FF5418`
+![Oriģinālais auto attēls](car.jpg)  
+*Oriģinālais automašīnas attēls (piemērs)*
+
+![Izgriezts numurzīmes attēls](cropped_plate.jpg)  
+*Izgriezta un apstrādāta numurzīme*
 
 ---
 
-## 🔍 What It Does
-
-This script:
-
-- Downloads one or more image URLs of the same car
-- Detects the license plate using YOLOv8
-- Crops and preprocesses the plate (grayscale, contrast enhancement, denoising)
-- Uses EasyOCR to read the text
-- Formats it for Latvian-style plates (`2 letters + 1-4 numbers`)
-- Returns the most common plate across all images
+✅ **Galīgi atpazītā numurzīme:** `FF5418`
 
 ---
 
-## 🔧 Model & Tools
+## 🔍 Ko Šis Skripts Dara
+
+Šis skripts:
+
+- Lejupielādē vienu vai vairākus automašīnas attēlus (no URL)
+- Detektē numurzīmi, izmantojot YOLOv8
+- Izgriež un apstrādā numurzīmi (pārveido pelēktoņu attēlā, uzlabo kontrastu, samazina troksni)
+- Izmanto EasyOCR, lai nolasītu tekstu
+- Formatē rezultātu pēc Latvijas numurzīmju standarta (`2 burti + 1–4 cipari`)
+- Atgriež biežāko numurzīmi no visiem attēliem
+
+---
+
+## 🔧 Modeļi un Rīki
 
 - **Python**
-- **YOLOv8**: for license plate detection
-- **EasyOCR**: for optical character recognition (OCR)
-- **OpenCV**: for image processing
+- **YOLOv8**: numurzīmju detekcijai
+- **EasyOCR**: optiskai teksta atpazīšanai (OCR)
+- **OpenCV**: attēlu apstrādei
