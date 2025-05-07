@@ -1,6 +1,6 @@
 # 🚘 Latvijas Automašīnu Numurzīmju Atpazīšana un OCR
 
-Atpazīst un nolas Latvijas automašīnu numurzīmes no attēliem, izmantojot **YOLOv8** objektu detekcijai un **EasyOCR** teksta atpazīšanai — viss Python vidē.
+Atpazīst un nolas Latvijas automašīnu numurzīmes no attēliem, izmantojot **YOLOv8** objektu detekcijai un **EasyOCR** teksta atpazīšanai Python vidē.
 
 ---
 
@@ -12,7 +12,7 @@ Atpazīst un nolas Latvijas automašīnu numurzīmes no attēliem, izmantojot **
 
 ---
 
-✅ **Galīgi atpazītā numurzīme:** `FF5418`
+✅ **Atpazītā numurzīme:** `FF5418`
 
 ---
 
@@ -20,7 +20,7 @@ Atpazīst un nolas Latvijas automašīnu numurzīmes no attēliem, izmantojot **
 
 Šis skripts:
 
-- Lejupielādē vienu vai vairākus automašīnas attēlus (no URL)
+- Lejupielādē vienu vai vairākus automašīnas attēlus (no ".jpg" URL)
 - Detektē numurzīmi, izmantojot YOLOv8
 - Izgriež un apstrādā numurzīmi (pārveido pelēktoņu attēlā, uzlabo kontrastu, samazina troksni)
 - Izmanto EasyOCR, lai nolasītu tekstu
